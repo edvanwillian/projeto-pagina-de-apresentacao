@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Patrick Hand';
+    text-decoration: none;
+    list-style: none;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #000;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 1024px;
+}
+.logo, img {
+    width: 50%;
+}
+
+.menu, nav {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    
+}
+
+.menu_item {
+    color: #FFFFFF ;
+    background-color: #1898e0;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+
+.menu_item:hover {
+    background-color: #000;
+}
+
+#cor_fundo {
+    background-color: #1898e0;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    padding: 20px;
+}
+.produto_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    width: auto;
+}
+
+.produto_img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 40px;
+}
+.titulo_img h2 {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 25px;
+    
+}
+.titulo_img p {
+    text-align: center;
+    padding-top: 40px;
+    margin-top: 40px;
+}
+
+#promo {
+    background-color: #000;
+    color: #FFF;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 15px;
+    font-size: 30px;
+    border-radius: 10px;
+}
+
+
+#atual {
+    background-color:#000;
+    text-decoration: line-through #FFF;
+    color: #FFF;
+    margin-left: 170px;
+    margin-right: 170px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 8px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+    height: 100px;
+}
+
+.botao {
+
+    background-color: #1898e0;
+    color: #FFF;
+    font-size: 18px;
+    border-bottom: #FFF;
+    border-radius: 20px;
+    margin-left: 170px;
+    margin-right: 170px;
+    margin-top: 25px;
+    margin-bottom: 25px; 
+
+}
+
+.botao hover {
+    background-color: #000;
+}
+
+a {
+    color: #FFF;
+}
